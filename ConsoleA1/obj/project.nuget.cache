@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i3InXYbN7Wk=",
+  "dgSpecHash": "EWFFxwHpa+U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Academy\\Documents\\Новая папка (2)\\eng\\repository_prj\\ConsoleA1\\ConsoleA1.csproj",
+  "projectFilePath": "C:\\11\\repository_prj\\ConsoleA1\\ConsoleA1.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\Academy\\Documents\\Новая папка (2)\\eng\\repository_prj\\ConsoleA1\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
