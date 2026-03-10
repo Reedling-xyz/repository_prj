@@ -40,6 +40,7 @@ if (word != "")
             {
                 guessed[i] = guess;
             }
+            
         }
     }
     if (lives == 0)
