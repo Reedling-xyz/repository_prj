@@ -40,14 +40,19 @@ if (word != "")
             {
                 guessed[i] = guess;
             }
-            
+            else if (i == word.Length)
+            {
+                lives--;
+                i = 0;
+            }
         }
     }
     if (lives == 0)
     {   
     Console.WriteLine(word);
-    lives = 10;
+    Console.ReadLine();
+    Console.Clear();
     word = "";
     }
 }
-﻿  
+
