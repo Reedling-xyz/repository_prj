@@ -3,7 +3,7 @@
 string[] words = {"гроб", "витамин", "чудо", "брюки", "костюм", "середина", "ввод", "услуга", "стадион", "образец", "правило", "замечание", "духи", "бабочка", "буря", "наука", "касса", "движение", "ванная", "целое"};
 
 string word = "";
-char[] guessed = {};
+List<char> guessed = new List<char>();
 char guess = ' ';
 string _guessed = "";
 int lives = 10;
@@ -30,10 +30,9 @@ if (word != "")
         }
     }
     if (lives == 0)
-{
+    {   
     Console.WriteLine(word);
     lives = 10;
     word = "";
-    
-}
+    }
 }
