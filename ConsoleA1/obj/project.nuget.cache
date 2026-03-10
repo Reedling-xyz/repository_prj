@@ -4,5 +4,12 @@
   "success": true,
   "projectFilePath": "C:\\Users\\Academy\\Documents\\Новая папка (2)\\eng\\repository_prj\\ConsoleA1\\ConsoleA1.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Academy\\Documents\\Новая папка (2)\\eng\\repository_prj\\ConsoleA1\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
