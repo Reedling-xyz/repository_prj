@@ -1,3 +1,18 @@
+C:\Users\Academy\Documents\Новая папка (2)\eng\repository_prj\ConsoleA1\bin\Debug\net8.0\ConsoleA1.exe
+C:\Users\Academy\Documents\Новая папка (2)\eng\repository_prj\ConsoleA1\bin\Debug\net8.0\ConsoleA1.deps.json
+C:\Users\Academy\Documents\Новая папка (2)\eng\repository_prj\ConsoleA1\bin\Debug\net8.0\ConsoleA1.runtimeconfig.json
+C:\Users\Academy\Documents\Новая папка (2)\eng\repository_prj\ConsoleA1\bin\Debug\net8.0\ConsoleA1.dll
+C:\Users\Academy\Documents\Новая папка (2)\eng\repository_prj\ConsoleA1\bin\Debug\net8.0\ConsoleA1.pdb
+C:\Users\Academy\Documents\Новая папка (2)\eng\repository_prj\ConsoleA1\obj\Debug\net8.0\ConsoleA1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Academy\Documents\Новая папка (2)\eng\repository_prj\ConsoleA1\obj\Debug\net8.0\ConsoleA1.AssemblyInfoInputs.cache
+C:\Users\Academy\Documents\Новая папка (2)\eng\repository_prj\ConsoleA1\obj\Debug\net8.0\ConsoleA1.AssemblyInfo.cs
+C:\Users\Academy\Documents\Новая папка (2)\eng\repository_prj\ConsoleA1\obj\Debug\net8.0\ConsoleA1.csproj.CoreCompileInputs.cache
+C:\Users\Academy\Documents\Новая папка (2)\eng\repository_prj\ConsoleA1\obj\Debug\net8.0\ConsoleA1.sourcelink.json
+C:\Users\Academy\Documents\Новая папка (2)\eng\repository_prj\ConsoleA1\obj\Debug\net8.0\ConsoleA1.dll
+C:\Users\Academy\Documents\Новая папка (2)\eng\repository_prj\ConsoleA1\obj\Debug\net8.0\refint\ConsoleA1.dll
+C:\Users\Academy\Documents\Новая папка (2)\eng\repository_prj\ConsoleA1\obj\Debug\net8.0\ConsoleA1.pdb
+C:\Users\Academy\Documents\Новая папка (2)\eng\repository_prj\ConsoleA1\obj\Debug\net8.0\ConsoleA1.genruntimeconfig.cache
+C:\Users\Academy\Documents\Новая папка (2)\eng\repository_prj\ConsoleA1\obj\Debug\net8.0\ref\ConsoleA1.dll
 C:\11\repository_prj\ConsoleA1\bin\Debug\net8.0\ConsoleA1.exe
 C:\11\repository_prj\ConsoleA1\bin\Debug\net8.0\ConsoleA1.deps.json
 C:\11\repository_prj\ConsoleA1\bin\Debug\net8.0\ConsoleA1.runtimeconfig.json

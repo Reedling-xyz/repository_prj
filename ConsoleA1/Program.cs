@@ -1,4 +1,4 @@
-﻿using System.Runtime.InteropServices;
+﻿﻿using System.Runtime.InteropServices;
 
 string[] words = {"гроб", "витамин", "чудо", "брюки", "костюм", "середина", "ввод", "услуга", "стадион", "образец", "правило", "замечание", "духи", "бабочка", "буря", "наука", "касса", "движение", "ванная", "целое"};
 
@@ -18,18 +18,18 @@ if(word == "")
     word = words[rnd.Next(words.Length)];
     for(int i = 0; i < word.Length; i++)
     {
-        guessed[i] = '_';
+        guessed.Add('_');
     }
 }
 if (word != "")
 {
-    if(lives != 0)
+    while(lives != 0)
     {
         for(int i = 0; i < word.Length; i++)
         {
             _guessed += guessed[i] + " ";
         }
-        Console.WriteLine(guessed);
+        Console.WriteLine(_guessed);
         Console.WriteLine($"Попыток осталось: {lives}");
         Console.Write("Угадайте букву: ");
         guess = Convert.ToChar(Console.Read());
@@ -40,19 +40,24 @@ if (word != "")
             {
                 guessed[i] = guess;
             }
-            else if (i == word.Length)
+            else if (i+1 == word.Length)
             {
                 lives--;
                 i = 0;
             }
         }
+        _guessed = "";
+        Console.Clear();
+
+        if (lives == 0)
+        {   
+            Console.WriteLine(word);
+            Console.ReadLine();
+            Console.Clear();
+            word = "";
+            break;
+        }
     }
-    if (lives == 0)
-    {   
-    Console.WriteLine(word);
-    Console.ReadLine();
-    Console.Clear();
-    word = "";
-    }
+    
 }
 
