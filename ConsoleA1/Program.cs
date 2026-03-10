@@ -1,4 +1,4 @@
-﻿﻿using System.Runtime.InteropServices;
+﻿using System.Runtime.InteropServices;
 
 string[] words = {"гроб", "витамин", "чудо", "брюки", "костюм", "середина", "ввод", "услуга", "стадион", "образец", "правило", "замечание", "духи", "бабочка", "буря", "наука", "касса", "движение", "ванная", "целое"};
 
@@ -25,6 +25,7 @@ if (word != "")
 {
     while(lives != 0)
     {
+        bool f = false;
         for(int i = 0; i < word.Length; i++)
         {
             _guessed += guessed[i] + " ";
@@ -39,12 +40,12 @@ if (word != "")
             if (guess == word[i])
             {
                 guessed[i] = guess;
+                f = true;
             }
-            else if (i+1 == word.Length)
-            {
-                lives--;
-                i = 0;
-            }
+        }
+        if (f == false)
+        {
+            lives--;
         }
         _guessed = "";
         Console.Clear();
