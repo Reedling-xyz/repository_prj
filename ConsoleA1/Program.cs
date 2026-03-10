@@ -2,6 +2,12 @@
 
 string word = "";
 string guessed = "";
-char guess = ' ';
+char guess = Convert.ToChar(Console.ReadLine());
 
 int lives = 10;
+if (lives == 0)
+{
+    lives = 10;
+    word = words[]
+    
+}
