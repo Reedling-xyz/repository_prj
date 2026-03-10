@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Academy\\Documents\\GitHub\\repository_prj\\ConsoleA1\\ConsoleA1.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\Academy\\Documents\\GitHub\\repository_prj\\ConsoleA1\\ConsoleA1.csproj",
         "packagesPath": "C:\\Users\\Academy\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Academy\\Documents\\GitHub\\repository_prj\\ConsoleA1\\obj\\",
+=======
+    "C:\\11\\repository_prj\\ConsoleA1\\ConsoleA1.csproj": {}
+  },
+  "projects": {
+    "C:\\11\\repository_prj\\ConsoleA1\\ConsoleA1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\11\\repository_prj\\ConsoleA1\\ConsoleA1.csproj",
+        "projectName": "ConsoleA1",
+        "projectPath": "C:\\11\\repository_prj\\ConsoleA1\\ConsoleA1.csproj",
+        "packagesPath": "C:\\Users\\Academy\\.nuget\\packages\\",
+        "outputPath": "C:\\11\\repository_prj\\ConsoleA1\\obj\\",
+>>>>>>> a1bbc2bed990332a66111794b052f570e3ca7e92
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Academy\\AppData\\Roaming\\NuGet\\NuGet.Config",
