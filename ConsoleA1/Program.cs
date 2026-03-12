@@ -26,6 +26,7 @@ if (word != "")
     while(lives != 0)
     {
         bool f = false;
+        bool ff = false;
         for(int i = 0; i < word.Length; i++)
         {
             _guessed += guessed[i] + " ";
@@ -49,6 +50,22 @@ if (word != "")
         }
         _guessed = "";
         Console.Clear();
+        for(int i = 0; i < word.Length; i++)
+        {
+            if(guessed[i] == '_')
+            {
+                ff = true;
+            }
+        }
+        if(ff == false)
+        {
+            Console.WriteLine($"Слово было отгадано: {word}");
+            Console.ReadLine();
+            Console.Clear();
+            word = "";
+            break;
+        }
+        
 
         if (lives == 0)
         {   
