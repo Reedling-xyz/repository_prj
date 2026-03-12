@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ConsoleA1
-build_property.ProjectDir = C:\Users\Academy\Documents\Новая папка (2)\eng\repository_prj\ConsoleA1\
+build_property.ProjectDir = C:\Users\Academy\Documents\GitHub\repository_prj\ConsoleA1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
