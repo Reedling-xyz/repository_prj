@@ -25,6 +25,8 @@ if (word != "")
 {
     while(lives != 0)
     {
+        bool f = false;
+        bool ff = false;
         for(int i = 0; i < word.Length; i++)
         {
             _guessed += guessed[i] + " ";
@@ -32,26 +34,42 @@ if (word != "")
         Console.WriteLine(_guessed);
         Console.WriteLine($"Попыток осталось: {lives}");
         Console.Write("Угадайте букву: ");
-        guess = Convert.ToChar(Console.Read());
+        guess = Convert.ToChar(Console.ReadLine());
 
         for(int i = 0; i < word.Length; i++)
         {
             if (guess == word[i])
             {
                 guessed[i] = guess;
+                f = true;
             }
-            else if (i+1 == word.Length)
-            {
-                lives--;
-                i = 0;
-            }
+        }
+        if (f == false)
+        {
+             lives--;
         }
         _guessed = "";
         Console.Clear();
+        for(int i = 0; i < word.Length; i++)
+        {
+            if(guessed[i] == '_')
+            {
+                ff = true;
+            }
+        }
+        if(ff == false)
+        {
+            Console.WriteLine($"Слово было отгадано: {word}");
+            Console.ReadLine();
+            Console.Clear();
+            word = "";
+            break;
+        }
+        
 
         if (lives == 0)
         {   
-            Console.WriteLine(word);
+            Console.WriteLine($"Слово было: {word}");
             Console.ReadLine();
             Console.Clear();
             word = "";
@@ -60,4 +78,3 @@ if (word != "")
     }
     
 }
-
