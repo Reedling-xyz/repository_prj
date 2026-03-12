@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\11\\repository_prj\\ConsoleA1\\ConsoleA1.csproj",
+      "projectUniqueName": "C:\\Users\\Academy\\Documents\\GitHub\\repository_prj\\ConsoleA1\\ConsoleA1.csproj",
       "projectName": "ConsoleA1",
-      "projectPath": "C:\\11\\repository_prj\\ConsoleA1\\ConsoleA1.csproj",
+      "projectPath": "C:\\Users\\Academy\\Documents\\GitHub\\repository_prj\\ConsoleA1\\ConsoleA1.csproj",
       "packagesPath": "C:\\Users\\Academy\\.nuget\\packages\\",
-      "outputPath": "C:\\11\\repository_prj\\ConsoleA1\\obj\\",
+      "outputPath": "C:\\Users\\Academy\\Documents\\GitHub\\repository_prj\\ConsoleA1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Academy\\AppData\\Roaming\\NuGet\\NuGet.Config",
